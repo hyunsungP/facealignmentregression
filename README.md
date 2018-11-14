@@ -21,7 +21,7 @@ This is a caffe-python implementation on Windows 10 for face alignment.
 
 ## Usage
 
-### For training
+### For Training
 1. Clone the repository
 ```
 git clone https://github.com/hyunsungP/facelignmentregression
@@ -29,19 +29,26 @@ git clone https://github.com/hyunsungP/facelignmentregression
 
 2. make data files (.h5)
 ```
-make_wild_int.py, and so on.
+make_wild_input.py
 ```
+and so on.
 
-3. training \
+3. make data file list \
+Refer to models/list_train_*.txt
+
+4. training \
 On console window with caffe
 ```
-caffe train --solver=models/ZF_solver1.prototxt --gpu=0
+caffe train --solver=models/ZF_solver.prototxt --gpu=0
 ```
 
 Other network are same.
 
-### For Testing
+### For Testing \
+Change prototxt path in the source code.
 ```
 test_300w_public.py
 ```
+
+Other models will be uploaded.
 
