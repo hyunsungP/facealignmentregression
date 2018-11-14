@@ -1,4 +1,4 @@
-# Stage-wise Face Alignment using Global and Local Regressiors
+# Stage-wise Face Alignment using Global and Local Regressors
 
 This is a caffe-python implementation on Windows 10 for face alignment.
 
