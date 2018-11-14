@@ -44,7 +44,7 @@ caffe train --solver=models/ZF_solver.prototxt --gpu=0
 
 Other network are same.
 
-### For Testing \
+### For Testing
 Change prototxt path in the source code.
 ```
 test_300w_public.py
