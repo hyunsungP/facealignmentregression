@@ -2,7 +2,12 @@
 
 This is a caffe-python implementation on Windows 10 for face alignment.
 
+We implemented two-kind of methods.<br>
+
+Method1 repeat global and local regression after initialization regression<br>
 <p align="center"><img src="figure/overview1.png" alt="" width="400"></p>
+
+Method2 repeat local refinement regression after initialization regression<br>
 <p align="center"><img src="figure/overview2.png" alt="" width="400"></p>
 
 ## Evaluation on 300w public test set
